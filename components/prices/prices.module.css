@@ -1,0 +1,14 @@
+.prices {
+  background-color: var(--lightbg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+.contact {
+  width: 90%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.content {
+  background-color: var(--white);
+  border-bottom: 5px solid var(--blue);
+  border-radius: 5px;
+  width: 50%;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

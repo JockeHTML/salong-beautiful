@@ -1,0 +1,60 @@
+.img {
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gridItem img:hover {
+  opacity: 0.5;
+}
+
+.modal {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: all 0.25s ease-out;
+}
+
+.modalOpen {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  pointer-events: all;
+  z-index: 2;
+  transition: all 0.25s ease-out;
+}
+
+.modalOpen img {
+  position: absolute;
+  height: 60%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  transition: all 0.25 ease-out;
+  z-index: 2;
+}
+
+.modal img {
+  position: absolute;
+  height: 50%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  transition: all 0.25 ease-out;
+  z-index: 2;
+}
+
+.imgOpen {
+  transform: translate(-50%, -5%) scale(1);
+}

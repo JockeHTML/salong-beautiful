@@ -1,0 +1,27 @@
+.title {
+  margin: auto;
+  font-size: var(--size5);
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.border {
+  position: relative;
+  border-radius: 10px;
+
+  width: 100px;
+  height: 10px;
+  background-color: var(--yellow);
+  margin: 0 auto;
+}
+
+.title h1 {
+  margin: auto;
+  margin-bottom: 0px;
+  width: 450px;
+}
+
+.title h3 {
+  margin: auto;
+  margin-top: 1rem;
+}

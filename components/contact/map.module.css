@@ -1,0 +1,10 @@
+.map {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe {
+  border-radius: 8px;
+}

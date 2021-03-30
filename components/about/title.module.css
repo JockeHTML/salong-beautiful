@@ -1,0 +1,19 @@
+.title h1 {
+  margin-bottom: 0;
+  width: auto;
+}
+
+.title h3 {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+.border {
+  position: relative;
+  border-radius: 10px;
+
+  width: 100px;
+  height: 10px;
+  background-color: var(--yellow);
+  margin: 0;
+}

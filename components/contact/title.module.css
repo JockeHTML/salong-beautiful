@@ -1,0 +1,16 @@
+.title {
+  font-size: var(--size5);
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.border {
+  border-radius: 10px;
+  position: relative;
+  width: 100px;
+  height: 10px;
+  background-color: var(--yellow);
+  margin: 0;
+}

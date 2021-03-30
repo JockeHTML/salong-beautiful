@@ -1,0 +1,32 @@
+.gridContainer {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 4rem;
+}
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2rem !important;
+}
+
+.gridItem img {
+  border-radius: 100vh;
+  object-fit: cover;
+  object-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.gridItem h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.gridItem p {
+  width: 90%;
+  text-align: center;
+}

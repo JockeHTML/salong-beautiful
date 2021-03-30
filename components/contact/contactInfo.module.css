@@ -1,0 +1,36 @@
+.contactInfo {
+  align-items: center;
+  padding: 2.4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.icon {
+  width: 50px;
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+.info span {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h4 {
+  margin: 1.1rem 0;
+}
+
+.contactInfo i {
+  color: var(--yellow);
+  font-size: 1.7rem;
+}

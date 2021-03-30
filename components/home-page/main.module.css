@@ -1,0 +1,23 @@
+.main {
+  background-image: url("../../public/images/bg3.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title h1 {
+  color: var(--white);
+  font-size: var(--size30);
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+}
+.title h2 {
+  color: var(--white);
+  margin: 10px 0 0 0;
+  text-align: center;
+}
