@@ -1,16 +1,84 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap");
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+:root {
+  --size1: 0.25rem;
+  --size2: 0.5rem;
+  --size3: 0.75rem;
+  --size4: 1rem;
+  --size5: 1.25rem;
+  --size6: 1.5rem;
+  --size8: 2rem;
+  --size12: 3rem;
+  --size16: 4rem;
+  --size20: 5rem;
+  --size30: 7rem;
+  --size40: 10rem;
+
+  --heading: #373f41;
+  --dark: #404040;
+  --darker: rgba(12, 9, 9, 0.6);
+  --yellow: #fca311;
+  --pink: #e2917e;
+  --lightbg: #fff7f2;
+  --blue: #023047;
+  --lightblue: #98c1d9;
+  --white: #fff;
+}
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  background-color: var(--white);
+  color: var(--heading);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: var(--size12);
+  font-family: "Domine", serif;
+  color: var(--blue);
+}
+
+h3 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: var(--blue);
+  font-size: var(--size6);
+}
+
+h4 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: var(--blue);
+  font-size: var(--size5);
+}
+
+h2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: var(--blue);
+  font-size: var(--size8);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--size4);
+  color: var(--heading);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
 }
