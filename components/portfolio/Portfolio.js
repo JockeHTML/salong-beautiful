@@ -1,13 +1,13 @@
 import React from "react";
-import Grid from "./Grid";
 import Title from "./Title";
 import classes from "./portfolio.module.css";
+import ImageGrid from "./ImageGrid";
 
 function Portfolio(props) {
   return (
     <div id="portfolio" className={classes.portfolio}>
       <Title />
-      <Grid />
+      <ImageGrid />
     </div>
   );
 }

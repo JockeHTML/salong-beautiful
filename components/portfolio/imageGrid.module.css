@@ -1,13 +1,25 @@
+.imageGrid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 60%;
+  margin: auto;
+}
+
 .img {
   overflow: hidden;
   cursor: pointer;
   transition: all 0.3s ease-out;
   object-fit: cover;
   object-position: center;
+  height: 300px;
+  width: 100%;
+  box-shadow: var(--shadow);
 }
 
-.gridItem img:hover {
+.img:hover {
   opacity: 0.5;
+  transform: scale(1.01);
 }
 
 .modal {
@@ -19,7 +31,6 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  transition: all 0.25s ease-out;
 }
 
 .modalOpen {
@@ -37,17 +48,8 @@
 
 .modalOpen img {
   position: absolute;
-  height: 60%;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -5%);
-  transition: all 0.25 ease-out;
-  z-index: 2;
-}
-
-.modal img {
-  position: absolute;
   height: 50%;
+  width: 15%;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -5%);
@@ -57,4 +59,11 @@
 
 .imgOpen {
   transform: translate(-50%, -5%) scale(1);
+}
+
+@media (max-width: 768px) {
+  .imageGrid {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

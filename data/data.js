@@ -108,8 +108,8 @@ export const tileData = [
     cols: 1,
   },
   {
-    img: "/images/product2.jpg",
-    title: "/images/product2.jpg",
+    img: "/images/product1.jpg",
+    title: "/images/product1.jpg",
     author: "author",
     cols: 1,
   },
@@ -120,8 +120,8 @@ export const tileData = [
     cols: 1,
   },
   {
-    img: "/images/product2.jpg",
-    title: "/images/product2.jpg",
+    img: "/images/product1.jpg",
+    title: "/images/product1.jpg",
     author: "author",
     cols: 1,
   },
@@ -132,8 +132,8 @@ export const tileData = [
     cols: 1,
   },
   {
-    img: "/images/product2.jpg",
-    title: "/images/product2.jpg",
+    img: "/images/product1.jpg",
+    title: "/images/product1.jpg",
     author: "author",
     cols: 1,
   },
@@ -144,8 +144,8 @@ export const tileData = [
     cols: 1,
   },
   {
-    img: "/images/product2.jpg",
-    title: "/images/product2.jpg",
+    img: "/images/product1.jpg",
+    title: "/images/product1.jpg",
     author: "author",
     cols: 1,
   },
@@ -185,7 +185,7 @@ export const commentSlideData = [
   },
   {
     title: "Text3",
-    text: "Otrolig skillnad",
+    text: "Jag är jättenöjd!",
     id: 3,
   },
   {
@@ -195,7 +195,7 @@ export const commentSlideData = [
   },
   {
     title: "Text5",
-    text: "Jag ser ut som en helt annan person",
+    text: "Hon som klippte mig verkar ha ett problem med choklad",
     id: 0,
   },
 ];
