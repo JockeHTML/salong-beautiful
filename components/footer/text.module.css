@@ -10,7 +10,6 @@
 
 .border {
   border-radius: 10px;
-
   position: relative;
   width: 100px;
   height: 10px;
@@ -22,4 +21,13 @@
   padding: 1rem 0;
   font-size: 1.7rem;
   margin: 0 1rem 0 0;
+}
+
+@media (max-width: 768px) {
+  .text {
+    padding: 0 0 1rem 1rem;
+  }
+  .text h2 {
+    margin-top: 1rem;
+  }
 }

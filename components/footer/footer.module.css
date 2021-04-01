@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: 250px;
+  height: auto;
   background-color: var(--blue);
   border-bottom: 5px solid var(--yellow);
 }
@@ -8,4 +8,13 @@
 .content {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 101%;
+  }
+  .content {
+    flex-direction: column;
+  }
 }

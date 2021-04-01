@@ -6,3 +6,10 @@
   opacity: 0.8;
   letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+  .copyright p {
+    margin: 1rem auto;
+    width: 70%;
+  }
+}

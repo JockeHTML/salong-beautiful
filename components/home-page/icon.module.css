@@ -22,3 +22,13 @@
 .icon:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .icon {
+    bottom: 290px;
+    font-size: 1.2rem;
+  }
+  .icon span {
+    padding: 10px 1rem;
+  }
+}

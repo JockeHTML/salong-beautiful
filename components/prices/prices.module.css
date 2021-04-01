@@ -1,6 +1,5 @@
 .prices {
   background-color: var(--lightbg);
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,4 +10,16 @@
 .content {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .prices {
+    padding-bottom: 3rem;
+    width: 101%;
+  }
 }

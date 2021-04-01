@@ -8,7 +8,6 @@
 .border {
   position: relative;
   border-radius: 10px;
-
   width: 100px;
   height: 10px;
   background-color: var(--yellow);
@@ -18,10 +17,19 @@
 .title h1 {
   margin: auto;
   margin-bottom: 0px;
-  width: 450px;
 }
 
 .title h3 {
   margin: auto;
   margin-top: 1rem;
+}
+
+.title a {
+  color: var(--yellow);
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding-bottom: 3rem;
+  }
 }

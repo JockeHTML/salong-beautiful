@@ -14,3 +14,22 @@
   background-color: var(--yellow);
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .title h1 {
+    text-align: center;
+  }
+  .border {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title h1 {
+    text-align: start;
+    padding: 0 1rem;
+  }
+  .border {
+    margin: 0 0 0 1rem;
+  }
+}

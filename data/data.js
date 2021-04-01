@@ -105,7 +105,7 @@ export const tileData = [
     img: "/images/product1.jpg",
     title: "/images/product1.jpg",
     author: "author",
-    cols: 2,
+    cols: 1,
   },
   {
     img: "/images/product2.jpg",
@@ -123,7 +123,7 @@ export const tileData = [
     img: "/images/product2.jpg",
     title: "/images/product2.jpg",
     author: "author",
-    cols: 2,
+    cols: 1,
   },
   {
     img: "/images/product1.jpg",
@@ -135,36 +135,19 @@ export const tileData = [
     img: "/images/product2.jpg",
     title: "/images/product2.jpg",
     author: "author",
-    cols: 2,
+    cols: 1,
   },
   {
     img: "/images/product1.jpg",
     title: "/images/product1.jpg",
     author: "author",
-    cols: 2,
+    cols: 1,
   },
   {
     img: "/images/product2.jpg",
     title: "/images/product2.jpg",
     author: "author",
     cols: 1,
-  },
-];
-
-export const slideData = [
-  {
-    icon: "fas fa-phone-alt",
-    text: "060-61 76 10",
-    href: "tel:+4660617610",
-  },
-  {
-    icon: "fas fa-map-marker-alt",
-    text: "Fridhemsgatan 74 854 61 Sundsvall",
-  },
-  {
-    icon: "fas fa-mobile-alt",
-    text: "0703-118 663",
-    href: "tel:+46703118663",
   },
 ];
 
@@ -186,5 +169,33 @@ export const contactData = [
   {
     title: "Fridhemsgatan 74, 854 61 Sundsvall",
     icon: "fas fa-map-marker-alt",
+  },
+];
+
+export const commentSlideData = [
+  {
+    title: "Text1",
+    text: "Snabbt och blev superbra!",
+    id: 1,
+  },
+  {
+    title: "Text2",
+    text: "Bästa frisören i Sundsvall",
+    id: 2,
+  },
+  {
+    title: "Text3",
+    text: "Otrolig skillnad",
+    id: 3,
+  },
+  {
+    title: "Text4",
+    text: "Bland de bästa klippningar jag fått. Supernöjd!",
+    id: 4,
+  },
+  {
+    title: "Text5",
+    text: "Jag ser ut som en helt annan person",
+    id: 0,
   },
 ];

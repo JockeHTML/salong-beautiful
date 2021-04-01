@@ -5,3 +5,11 @@
   padding: 4rem;
   background-color: var(--lightbg);
 }
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    width: 101%;
+    padding: 3rem 0;
+  }
+}

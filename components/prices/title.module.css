@@ -2,18 +2,15 @@
   margin: auto;
   font-size: var(--size5);
   text-align: center;
-  padding: 4rem;
+  padding: 4rem 0;
 }
 
 .title h1 {
-  margin: auto;
   margin-bottom: 0px;
-  width: 450px;
 }
 
 .border {
   border-radius: 10px;
-
   position: relative;
   width: 100px;
   height: 10px;
@@ -22,7 +19,21 @@
 }
 
 .title h3 {
-  width: 40%;
   margin: auto;
   margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    width: auto;
+    padding: 3rem 0 2rem 0;
+  }
+  .title h1 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .title h2 {
+    margin-top: 1rem;
+  }
 }

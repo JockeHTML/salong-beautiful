@@ -24,3 +24,9 @@
   text-align: center;
   margin: 1rem auto 0 auto;
 }
+
+@media (max-width: 768px) {
+  .title h3 {
+    width: 80%;
+  }
+}

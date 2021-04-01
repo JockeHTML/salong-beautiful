@@ -9,9 +9,16 @@ function Product(props) {
       {productsData.map((product, index) => {
         const { title, url, text } = product;
         return (
-          <Grid key={index} lg={2} className={classes.gridItem} item>
+          <Grid
+            key={index}
+            lg={3}
+            xs={11}
+            md={4}
+            className={classes.gridItem}
+            item
+          >
             <h2>{title}</h2>
-            <img src={url} alt={url} />
+            <img src={url} alt="Frisör" />
             <p>{text}</p>
           </Grid>
         );

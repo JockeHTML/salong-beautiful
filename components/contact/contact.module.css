@@ -1,6 +1,7 @@
 .contact {
+  height: auto;
+  padding: 4rem 0;
   width: 90%;
-  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,4 +15,14 @@
   width: 50%;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 3rem 0;
+  }
+  .content {
+    height: auto;
+    width: auto;
+  }
 }

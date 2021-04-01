@@ -25,19 +25,19 @@ function Price(props) {
 
   return (
     <div className={classes.price}>
-      <div>
+      <div className={classes.priceContent}>
         <h2>{heading}</h2>
         <div className={classes.border}></div>
         <span>
           <h3>{`${title}..............`}</h3>
-          <h3 style={{ color: "var(--yellow)" }}>{price}</h3>
+          <h3>{price}</h3>
         </span>
 
         <p>{text}</p>
 
         <span>
           <h3>{`${title2}..............`}</h3>
-          <h3 style={{ color: "var(--yellow)" }}>{price2}</h3>
+          <h3>{price2}</h3>
         </span>
         <p>{text2}</p>
 
@@ -45,7 +45,7 @@ function Price(props) {
           <div>
             <span>
               <h3>{`${title3}..............`}</h3>
-              <h3 style={{ color: "var(--yellow)" }}>{price3}</h3>
+              <h3>{price3}</h3>
             </span>
             <p>{text3}</p>{" "}
           </div>
@@ -55,13 +55,13 @@ function Price(props) {
           <div>
             <span>
               <h3>{`${title4}..............`}</h3>
-              <h3 style={{ color: "var(--yellow)" }}>{price4}</h3>
+              <h3>{price4}</h3>
             </span>
             <p>{text4}</p>
 
             <span>
               <h3>{`${title5}..............`}</h3>
-              <h3 style={{ color: "var(--yellow)" }}>{price5}</h3>
+              <h3>{price5}</h3>
             </span>
             <p>{text5}</p>
           </div>

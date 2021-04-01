@@ -7,6 +7,7 @@ function SocialMedia(props) {
       <ul>
         <li>
           <a
+            alt="facebook"
             target="_blank"
             href="https://www.facebook.com/Salong-Beautiful-116438208439323/?fref=ts"
           >
@@ -14,7 +15,11 @@ function SocialMedia(props) {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.instagram.com/salongbeautiful/">
+          <a
+            alt="instagram"
+            target="_blank"
+            href="https://www.instagram.com/salongbeautiful/"
+          >
             <i className="fab fa-instagram"></i>
           </a>
         </li>

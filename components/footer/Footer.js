@@ -11,8 +11,6 @@ function Footer(props) {
         <Title />
         <Text />
       </div>
-
-      <CopyRight />
     </div>
   );
 }

@@ -9,8 +9,8 @@ function Prices(props) {
     <div id="prices" className={classes.prices}>
       <Title />
       <div className={classes.content}>
-        {priceData.map((data) => {
-          return <Price data={data} />;
+        {priceData.map((data, index) => {
+          return <Price key={index} data={data} />;
         })}
       </div>
     </div>

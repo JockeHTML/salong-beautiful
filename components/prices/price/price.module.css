@@ -15,6 +15,7 @@
 
 .price p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .price span {
@@ -23,10 +24,26 @@
 
 .border {
   border-radius: 10px;
-
   position: relative;
   width: 50px;
   height: 5px;
   background-color: var(--yellow);
   margin: 0;
+}
+
+.priceContent h3 {
+  color: var(--yellow);
+}
+
+@media (max-width: 768px) {
+  .priceContent {
+    flex-direction: column;
+  }
+  .price > div {
+    width: 100%;
+    margin: 0;
+  }
+  .price h2 {
+    margin-top: 1rem;
+  }
 }

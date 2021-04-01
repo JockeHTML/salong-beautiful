@@ -23,6 +23,7 @@ function Grid() {
   const classes = useStyles();
   const [imageSrc, setImageSrc] = useState();
   const [openImage, setOpenImage] = useState(false);
+  /*const [width, setWidth] = useState(window.innerWidth);*/
 
   const open = (e) => {
     setOpenImage(true);
@@ -31,7 +32,7 @@ function Grid() {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={300} className={classes.gridList} cols={6}>
+      <GridList cellHeight={300} className={classes.gridList} cols={2}>
         {tileData.map((tile, index) => (
           <GridListTile
             className={styles.gridItem}

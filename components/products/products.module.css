@@ -1,3 +1,10 @@
 .products {
   padding-top: 4rem;
 }
+
+@media (max-width: 768px) {
+  .products {
+    padding-top: 3rem;
+    width: 101%;
+  }
+}

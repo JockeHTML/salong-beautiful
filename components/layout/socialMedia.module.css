@@ -27,3 +27,9 @@
 .socialMedia i.active {
   color: var(--yellow);
 }
+
+@media (max-width: 768px) {
+  .socialMedia {
+    display: none;
+  }
+}

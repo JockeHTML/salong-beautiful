@@ -12,15 +12,12 @@ function ContactInfo(props) {
 
         {contactData.map((data, index) => {
           return (
-            <div className={classes.info}>
+            <div key={index} className={classes.info}>
               <span className={classes.icon}>
                 <i className={data.icon}></i>
               </span>
-
               <span>
-                <a href={data.href}>
-                  <h4>{data.title}</h4>
-                </a>
+                <h4>{data.title}</h4>
               </span>
             </div>
           );
