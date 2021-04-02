@@ -47,7 +47,7 @@
 @media (max-width: 768px) {
   .commentSlide {
     flex-direction: column;
-    height: 300px;
+    height: 250px;
     padding: 0;
     width: 101%;
   }
@@ -62,5 +62,14 @@
   }
   .left {
     left: 10px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .right {
+    right: 150px;
+  }
+  .left {
+    left: 150px;
   }
 }

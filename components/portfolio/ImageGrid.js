@@ -12,9 +12,10 @@ const ImageGrid = () => {
   };
 
   return (
-    <div class={classes.imageGrid}>
+    <div className={classes.imageGrid}>
       {tileData.map((tile, index) => (
         <img
+          key={index}
           onClick={open}
           className={classes.img}
           src={tile.img}

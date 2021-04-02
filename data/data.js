@@ -82,70 +82,67 @@ export const priceData = [
 export const productsData = [
   {
     title: "Klippning",
-    text:
-      "Här en text om klippning, färgning & övrigt. kan lite mer text för att fylla ut allt lite mer.",
+    text: "Från 350:- och uppåt",
     url: "/images/product5.jpg",
   },
   {
     title: "Färgning",
-    text:
-      "Här en text om klippning, färgning & övrigt. kan lite mer text för att fylla ut allt lite mer.",
-    url: "/images/product4.jpg",
+    text: "Från 350:- och uppåt",
+    url: "/images/product5.jpg",
   },
   {
     title: "Övrigt",
-    text:
-      "Här en text om klippning, färgning & övrigt. kan lite mer text för att fylla ut allt lite mer.",
-    url: "/images/product3.jpg",
+    text: "Från 350:- och uppåt",
+    url: "/images/product5.jpg",
   },
 ];
 
 export const tileData = [
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/product1.jpg",
-    title: "/images/product1.jpg",
+    img: "/images/bg2.jpg",
+    title: "/images/bg2.jpg",
     author: "author",
     cols: 1,
   },

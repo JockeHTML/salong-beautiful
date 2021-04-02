@@ -25,48 +25,57 @@ function Price(props) {
 
   return (
     <div className={classes.price}>
+      <h2>{heading}</h2>
+      <div className={classes.border}></div>
       <div className={classes.priceContent}>
-        <h2>{heading}</h2>
-        <div className={classes.border}></div>
         <span>
           <h3>{`${title}..............`}</h3>
           <h3>{price}</h3>
         </span>
 
         <p>{text}</p>
+      </div>
 
+      <div className={classes.priceContent}>
         <span>
           <h3>{`${title2}..............`}</h3>
           <h3>{price2}</h3>
         </span>
+
         <p>{text2}</p>
+      </div>
 
-        {!title3 ? null : (
-          <div>
-            <span>
-              <h3>{`${title3}..............`}</h3>
-              <h3>{price3}</h3>
-            </span>
-            <p>{text3}</p>{" "}
-          </div>
-        )}
+      {!title3 ? null : (
+        <div className={classes.priceContent}>
+          <span>
+            {" "}
+            <h3>{`${title3}..............`}</h3>
+            <h3>{price3}</h3>
+          </span>
+          <p>{text3}</p>{" "}
+        </div>
+      )}
 
-        {!title4 || !title5 ? null : (
-          <div>
+      {!title4 || !title5 ? null : (
+        <div>
+          <div className={classes.priceContent}>
             <span>
               <h3>{`${title4}..............`}</h3>
               <h3>{price4}</h3>
             </span>
-            <p>{text4}</p>
 
+            <p>{text4}</p>
+          </div>
+          <div className={classes.priceContent}>
             <span>
               <h3>{`${title5}..............`}</h3>
               <h3>{price5}</h3>
             </span>
+
             <p>{text5}</p>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }

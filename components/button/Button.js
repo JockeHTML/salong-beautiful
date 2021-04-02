@@ -1,8 +1,14 @@
 import React from "react";
-import Link from "next/link";
+import classes from "./button.module.css";
 
 function Button(props) {
-  return <span></span>;
+  return (
+    <div className={classes.icon}>
+      <span>
+        <a href="#prices">Priser</a>
+      </span>
+    </div>
+  );
 }
 
 export default Button;

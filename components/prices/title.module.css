@@ -7,6 +7,7 @@
 
 .title h1 {
   margin-bottom: 0px;
+  margin-top: 0;
 }
 
 .border {
@@ -26,14 +27,21 @@
 @media (max-width: 768px) {
   .title {
     width: auto;
-    padding: 3rem 0 2rem 0;
+    padding: 3rem 0 0 0;
   }
   .title h1 {
     padding: 0;
     margin: 0;
     width: 100%;
   }
-  .title h2 {
+  .title h3 {
     margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .title {
+    width: auto;
+    padding: 3rem 0 2rem 0;
   }
 }

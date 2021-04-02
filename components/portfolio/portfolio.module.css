@@ -8,3 +8,9 @@
     width: 101%;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .portfolio {
+    padding: 3rem 10rem;
+  }
+}

@@ -32,3 +32,15 @@
     padding: 10px 1rem;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .icon {
+    bottom: 400px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .icon {
+    bottom: 550px;
+  }
+}

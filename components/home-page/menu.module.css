@@ -1,0 +1,72 @@
+.firstIcon i {
+  display: none;
+  color: var(--yellow);
+  left: 10px;
+  top: 10px;
+  position: fixed;
+  font-size: var(--size8);
+  cursor: pointer;
+  z-index: 3;
+}
+
+.secondIcon i {
+  display: none;
+  color: var(--white);
+  left: 10px;
+  top: 10px;
+  position: fixed;
+  font-size: var(--size8);
+  cursor: pointer;
+  z-index: 3;
+}
+
+.menuOpen i {
+  cursor: pointer;
+  color: var(--white);
+  left: 10px;
+  top: 10px;
+  position: fixed;
+  font-size: var(--size8);
+}
+
+.menu {
+  transition: all 400ms ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 110%;
+  height: 110%;
+  opacity: 0;
+}
+
+.menuOpen {
+  transition: all 400ms ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 110%;
+  height: 110%;
+  background-color: var(--yellow);
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.menuOpen h2 {
+  color: var(--white);
+}
+
+.menuLinks {
+  transition: all 3ms ease-out;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  .firstIcon i,
+  .secondIcon i {
+    display: flex;
+  }
+}

@@ -27,7 +27,7 @@
   --heading: #373f41;
   --dark: #404040;
   --darker: rgba(12, 9, 9, 0.6);
-  --yellow: #fca311;
+  --yellow: #f77f00;
   --pink: #e2917e;
   --lightbg: #fff7f2;
   --blue: #023047;
@@ -90,5 +90,20 @@ button {
   }
   h3 {
     font-size: var(--size5);
+  }
+  * {
+    scroll-padding-top: 0;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  h1 {
+    font-size: var(--size10);
+  }
+  h3 {
+    font-size: var(--size5);
+  }
+  h2 {
+    font-size: var(--size6);
   }
 }

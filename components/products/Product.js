@@ -6,23 +6,27 @@ import { productsData } from "../../data/data";
 function Product(props) {
   return (
     <Grid id="products" container className={classes.gridContainer}>
-      {productsData.map((product, index) => {
-        const { title, url, text } = product;
-        return (
-          <Grid
-            key={index}
-            lg={3}
-            xs={11}
-            md={4}
-            className={classes.gridItem}
-            item
-          >
-            <h2>{title}</h2>
-            <img src={url} alt="Frisör" />
-            <p>{text}</p>
-          </Grid>
-        );
-      })}
+      <div className={classes.content}>
+        {productsData.map((product, index) => {
+          const { title, url, text } = product;
+          return (
+            <Grid
+              key={index}
+              lg={2}
+              xs={11}
+              md={3}
+              className={classes.gridItem}
+              item
+            >
+              <img src={url} alt="Frisör" />
+              <span>
+                <h2>{title}</h2>
+                <p>{text}</p>
+              </span>
+            </Grid>
+          );
+        })}
+      </div>
     </Grid>
   );
 }

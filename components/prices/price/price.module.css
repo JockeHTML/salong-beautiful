@@ -1,24 +1,26 @@
-.price > div {
-  width: 400px;
-  margin: 0 1rem;
-}
-
 .price h2 {
   font-family: "Domine", serif;
   margin-bottom: 5px;
   margin-top: 0;
 }
 
-.price h3 {
+.price {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.priceContent h3 {
   margin-bottom: 0;
 }
 
 .price p {
   margin-top: 0;
   margin-bottom: 0;
+  width: 90%;
 }
 
-.price span {
+.priceContent span {
   display: flex;
 }
 
@@ -39,11 +41,30 @@
   .priceContent {
     flex-direction: column;
   }
-  .price > div {
+  .price {
     width: 100%;
     margin: 0;
   }
+  .price p {
+    width: 100%;
+  }
   .price h2 {
-    margin-top: 1rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .price p {
+    width: 90%;
+  }
+  .price h3 {
+    width: 100%;
+  }
+  .priceContent {
+    padding: 0;
+  }
+  .price {
+    width: 80%;
+    margin: 0;
   }
 }

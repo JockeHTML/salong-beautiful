@@ -12,4 +12,3 @@ function Icon(props) {
 }
 
 export default Icon;
-/*<i className="fas fa-chevron-down"></i>*/

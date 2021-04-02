@@ -23,3 +23,15 @@
     width: 101%;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .content {
+    display: flex;
+    padding: 0 2rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .prices {
+    padding-bottom: 3rem;
+  }
+}

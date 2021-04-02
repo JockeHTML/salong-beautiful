@@ -33,3 +33,9 @@
     display: none;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .socialMedia {
+    width: 180px;
+  }
+}
