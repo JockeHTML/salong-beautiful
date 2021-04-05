@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./main.module.css";
 import Icon from "./Icon";
-import Menu from "../home-page/Menu";
+import Menu from "../homePage/Menu";
 
 function Main(props) {
   return (
