@@ -7,7 +7,8 @@
 .price {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 22%;
+  padding: 0 1rem;
 }
 
 .priceContent h3 {

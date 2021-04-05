@@ -13,7 +13,7 @@ function Product(props) {
             <Grid
               key={index}
               lg={2}
-              xs={11}
+              xs={10}
               md={3}
               className={classes.gridItem}
               item

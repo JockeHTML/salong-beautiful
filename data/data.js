@@ -172,7 +172,7 @@ export const contactData = [
 export const commentSlideData = [
   {
     title: "Text1",
-    text: "Snabbt och blev superbra!",
+    text: "Enkel bokning och superbra resultat!",
     id: 1,
   },
   {

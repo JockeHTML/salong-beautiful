@@ -54,6 +54,7 @@
     padding: 2rem 0 3rem 0;
   }
   .gridItem img {
+    height: 200px;
     margin: 0;
     border-radius: 10px;
     width: 100%;
