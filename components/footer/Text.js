@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./text.module.css";
-import SocialMedia from "../layout/SocialMedia";
 
 function Text(props) {
   return (

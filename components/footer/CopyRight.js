@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./copyRight.module.css";
+import classes from "./copyright.module.css";
 
 function CopyRight(props) {
   return <div className={classes.copyright}></div>;

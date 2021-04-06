@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./footer.module.css";
 import Title from "./Title";
 import Text from "./Text";
-import CopyRight from "./CopyRight";
 
 function Footer(props) {
   return (
