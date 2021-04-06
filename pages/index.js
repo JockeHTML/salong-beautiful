@@ -5,8 +5,8 @@ import Products from "../components/products/Products";
 import Portfolio from "../components/portfolio/Portfolio";
 import Prices from "../components/prices/Prices";
 import Slide from "../components/slide/Slide";
-import Footer from "../components/footer/footer";
-import Contact from "../components/contact/contact";
+import Footer from "../components/footer/Footer";
+import Contact from "../components/contact/Contact";
 import Head from "next/head";
 import { CommentSlide } from "../components/commentSlide/CommentSlide";
 
