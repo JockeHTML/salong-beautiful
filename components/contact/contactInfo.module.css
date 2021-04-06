@@ -37,7 +37,7 @@
 
 @media (max-width: 768px) {
   .contactInfo {
-    padding: 1.5rem 1rem;
+    padding: 1rem;
     width: auto;
     flex-direction: column;
   }
@@ -54,5 +54,11 @@
   .contactInfo {
     width: 100%;
     flex-direction: row;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .contactInfo {
+    width: auto;
   }
 }

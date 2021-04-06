@@ -45,14 +45,18 @@
 }
 
 @media (max-width: 768px) {
+  .commentSlide i {
+    font-size: 2rem;
+  }
   .commentSlide {
     flex-direction: column;
     height: 250px;
     padding: 0;
-    width: 101%;
+    width: 100%;
   }
   .commentSlide h2 {
     margin: auto;
+    font-size: var(--size6);
   }
   .slideActive {
     width: 60%;
@@ -71,5 +75,18 @@
   }
   .left {
     left: 150px;
+  }
+}
+
+@media only device and (orientation: landscape) {
+  .right {
+    right: 50px;
+  }
+  .left {
+    left: 50px;
+  }
+  .commentSlide h2 {
+    margin: auto;
+    width: 80%;
   }
 }

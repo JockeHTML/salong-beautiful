@@ -32,3 +32,9 @@
     width: 90%;
   }
 }
+
+@media only device and (orientation: landscape) {
+  .content {
+    width: 100%;
+  }
+}

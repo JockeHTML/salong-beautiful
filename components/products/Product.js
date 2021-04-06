@@ -13,14 +13,14 @@ function Product(props) {
             <Grid
               key={index}
               lg={2}
-              xs={10}
+              xs={8}
               md={3}
               className={classes.gridItem}
               item
             >
               <img src={url} alt="Frisör" />
               <span>
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{text}</p>
               </span>
             </Grid>

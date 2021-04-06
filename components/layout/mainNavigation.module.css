@@ -76,3 +76,12 @@
     display: none;
   }
 }
+
+@media only device and (orientation: landscape) {
+  .header {
+    display: none;
+  }
+  .headerActive {
+    display: none;
+  }
+}

@@ -82,17 +82,17 @@ export const priceData = [
 export const productsData = [
   {
     title: "Klippning",
-    text: "Från 350:- och uppåt",
+    text: "Någon valfri text",
     url: "/images/product5.jpg",
   },
   {
     title: "Färgning",
-    text: "Från 350:- och uppåt",
+    text: "Någon valfri text",
     url: "/images/product5.jpg",
   },
   {
     title: "Övrigt",
-    text: "Från 350:- och uppåt",
+    text: "Någon valfri text",
     url: "/images/product5.jpg",
   },
 ];

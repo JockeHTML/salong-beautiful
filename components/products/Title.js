@@ -6,7 +6,7 @@ function Title(props) {
     <div className={classes.title}>
       <h1>Jag hjälper dig med</h1>
       <div className={classes.border}></div>
-      <h3>Kontakta mig för andra överenskommelser</h3>
+      <h3>Kontakta gärna mig för andra överenskommelser!</h3>
     </div>
   );
 }

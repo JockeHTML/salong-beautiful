@@ -87,3 +87,17 @@
     height: 30%;
   }
 }
+
+@media only device and (orientation: landscape) {
+  .imageGrid {
+    width: 100%;
+  }
+  .img {
+    height: 200px;
+  }
+  .modalOpen img {
+    width: 25%;
+    top: 12%;
+    height: 30%;
+  }
+}

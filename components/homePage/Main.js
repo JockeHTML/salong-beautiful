@@ -9,8 +9,8 @@ function Main(props) {
       <Menu />
       <div className={classes.title}>
         <h1>Salong Beautiful</h1>
+        <Icon />
       </div>
-      <Icon />
     </div>
   );
 }

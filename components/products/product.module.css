@@ -30,7 +30,7 @@
   height: 250px;
 }
 
-.gridItem h2 {
+.gridItem h3 {
   color: var(--white);
   margin: 1rem 0 5px 0;
   font-family: "Domine", serif;
@@ -53,8 +53,9 @@
   .gridContainer {
     padding: 2rem 0 3rem 0;
   }
+
   .gridItem img {
-    height: 200px;
+    height: 160px;
     margin: 0;
     border-radius: 10px;
     width: 100%;
@@ -63,7 +64,7 @@
     width: 100%;
     margin-top: 10px;
   }
-  .gridItem h2 {
+  .gridItem h3 {
     margin-top: 1rem;
   }
   .content {

@@ -37,7 +37,7 @@
   .slide {
     flex-direction: column;
     height: auto;
-    width: 101%;
+    width: 100%;
     padding: 1rem 0 0 0;
   }
 }

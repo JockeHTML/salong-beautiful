@@ -1,11 +1,11 @@
 .portfolio {
-  padding: 4rem 15rem;
+  padding: 4rem;
 }
 
 @media (max-width: 768px) {
   .portfolio {
     padding: 3rem 0;
-    width: 101%;
+    width: 100%;
   }
 }
 
