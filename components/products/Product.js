@@ -10,7 +10,7 @@ function Product(props) {
         return (
           <div className={classes.productLink}>
             <a href={url} target="_blank">
-              <img src={img} />
+              <img alt="frisyr kvinna" src={img} />
             </a>
           </div>
         );
