@@ -1,7 +1,7 @@
 import React from "react";
 import { contactData } from "../../data/data";
 import classes from "./contactInfo.module.css";
-import Map from "./map";
+import Map from "./Map";
 import Title from "./Title";
 
 function ContactInfo(props) {

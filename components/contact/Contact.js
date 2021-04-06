@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./contact.module.css";
-import ContactInfo from "./contactInfo";
+import ContactInfo from "./ContactInfo";
 
 function Contact(props) {
   return (
