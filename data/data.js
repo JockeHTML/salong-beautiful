@@ -81,68 +81,68 @@ export const priceData = [
 
 export const productsData = [
   {
-    title: "Klippning",
-    text: "Någon valfri text",
-    url: "/images/product5.jpg",
+    title: "Björk",
+    url: "https://bjorkhair.se/",
+    img: "/images/björk.jpg",
   },
   {
-    title: "Färgning",
-    text: "Någon valfri text",
-    url: "/images/product5.jpg",
+    title: "Paul Mitchell",
+    url: "https://www.paulmitchell.com/",
+    img: "/images/paulmitchell.jpg",
   },
   {
-    title: "Övrigt",
-    text: "Någon valfri text",
-    url: "/images/product5.jpg",
+    title: "Olaplex",
+    url: "https://olaplex.com/",
+    img: "/images/olaplex.jpg",
   },
 ];
 
 export const tileData = [
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut1.jpg",
+    title: "/images/haircut1.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut2.jpg",
+    title: "/images/haircut2.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut3.jpg",
+    title: "/images/haircut3.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut4.jpg",
+    title: "/images/haircut4.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut5.jpg",
+    title: "/images/haircut5.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut6.jpg",
+    title: "/images/haircut6.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut7.jpg",
+    title: "/images/haircut7.jpg",
     author: "author",
     cols: 1,
   },
   {
-    img: "/images/bg2.jpg",
-    title: "/images/bg2.jpg",
+    img: "/images/haircut8.jpg",
+    title: "/images/haircut8.jpg",
     author: "author",
     cols: 1,
   },
@@ -160,7 +160,7 @@ export const contactData = [
     href: "tel:+46703118663",
   },
   {
-    title: "salongbeautiful@gmail.com",
+    title: "Caroline.leek@icloud.com",
     icon: "fas fa-envelope",
   },
   {

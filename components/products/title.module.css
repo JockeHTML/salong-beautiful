@@ -29,4 +29,8 @@
   .title h3 {
     width: 80%;
   }
+  .title h1 {
+    margin: auto;
+    width: 80%;
+  }
 }

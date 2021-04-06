@@ -1,33 +1,21 @@
 import React from "react";
 import classes from "./product.module.css";
-import { Grid } from "@material-ui/core";
 import { productsData } from "../../data/data";
 
 function Product(props) {
   return (
-    <Grid id="products" container className={classes.gridContainer}>
-      <div className={classes.content}>
-        {productsData.map((product, index) => {
-          const { title, url, text } = product;
-          return (
-            <Grid
-              key={index}
-              lg={2}
-              xs={8}
-              md={3}
-              className={classes.gridItem}
-              item
-            >
-              <img src={url} alt="Frisör" />
-              <span>
-                <h3>{title}</h3>
-                <p>{text}</p>
-              </span>
-            </Grid>
-          );
-        })}
-      </div>
-    </Grid>
+    <div id="products" className={classes.product}>
+      {productsData.map((product, index) => {
+        const { title, url, img } = product;
+        return (
+          <div className={classes.productLink}>
+            <a href={url} target="_blank">
+              <img src={img} />
+            </a>
+          </div>
+        );
+      })}
+    </div>
   );
 }
 

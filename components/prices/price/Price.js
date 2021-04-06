@@ -29,7 +29,7 @@ function Price(props) {
       <div className={classes.border}></div>
       <div className={classes.priceContent}>
         <span>
-          <h3>{`${title}..............`}</h3>
+          <h3>{`${title}........`}</h3>
           <h3>{price}</h3>
         </span>
 
@@ -38,7 +38,7 @@ function Price(props) {
 
       <div className={classes.priceContent}>
         <span>
-          <h3>{`${title2}..............`}</h3>
+          <h3>{`${title2}........`}</h3>
           <h3>{price2}</h3>
         </span>
 
@@ -49,7 +49,7 @@ function Price(props) {
         <div className={classes.priceContent}>
           <span>
             {" "}
-            <h3>{`${title3}..............`}</h3>
+            <h3>{`${title3}........`}</h3>
             <h3>{price3}</h3>
           </span>
           <p>{text3}</p>{" "}
@@ -60,7 +60,7 @@ function Price(props) {
         <div>
           <div className={classes.priceContent}>
             <span>
-              <h3>{`${title4}..............`}</h3>
+              <h3>{`${title4}........`}</h3>
               <h3>{price4}</h3>
             </span>
 
@@ -68,7 +68,7 @@ function Price(props) {
           </div>
           <div className={classes.priceContent}>
             <span>
-              <h3>{`${title5}..............`}</h3>
+              <h3>{`${title5}........`}</h3>
               <h3>{price5}</h3>
             </span>
 
