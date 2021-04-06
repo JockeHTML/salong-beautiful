@@ -2,7 +2,6 @@
   width: 100%;
   height: auto;
   background-color: var(--blue);
-  border-bottom: 5px solid var(--yellow);
 }
 
 .content {
