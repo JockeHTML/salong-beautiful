@@ -55,7 +55,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
   .price p {
     width: 90%;
   }
@@ -71,7 +71,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
   .price p {
     width: 90%;
   }

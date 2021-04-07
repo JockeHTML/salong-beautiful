@@ -50,13 +50,13 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
   .contactInfo {
     width: auto;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
   .contactInfo {
     width: 100%;
     flex-direction: row;

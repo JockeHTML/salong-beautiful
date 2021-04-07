@@ -190,9 +190,4 @@ export const commentSlideData = [
     text: "Bland de bästa klippningar jag fått. Supernöjd!",
     id: 4,
   },
-  {
-    title: "Text5",
-    text: "Hon som klippte mig verkar ha ett problem med choklad",
-    id: 0,
-  },
 ];
