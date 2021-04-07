@@ -7,12 +7,8 @@
 .price {
   display: flex;
   flex-direction: column;
-  width: 22%;
+  width: 25%;
   padding: 0 1rem;
-}
-
-.priceContent h3 {
-  margin-bottom: 0;
 }
 
 .price p {
@@ -36,6 +32,8 @@
 
 .priceContent h3 {
   color: var(--blue);
+  font-size: 1.8rem;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
