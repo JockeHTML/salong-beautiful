@@ -8,7 +8,7 @@ const ImageGrid = () => {
   const [openImage, setOpenImage] = useState(false);
   const open = (e) => {
     setOpenImage(true);
-    setImageSrc(e.target.alt);
+    setImageSrc(e.target.src);
   };
 
   return (
@@ -27,7 +27,7 @@ const ImageGrid = () => {
         onClick={() => setOpenImage(false)}
         className={openImage ? classes.modalOpen : classes.modal}
       >
-        <img src={imageSrc} alt={imageSrc} />
+        <img src={imageSrc} alt="klippt och färgat hår" />
       </div>
     </div>
   );

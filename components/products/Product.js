@@ -8,7 +8,7 @@ function Product(props) {
       {productsData.map((product, index) => {
         const { title, url, img } = product;
         return (
-          <div className={classes.productLink}>
+          <div key={index} className={classes.productLink}>
             <a href={url} target="_blank">
               <img alt="frisyr kvinna" src={img} />
             </a>

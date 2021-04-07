@@ -24,7 +24,19 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .content {
+    display: flex;
+    padding: 0 2rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .prices {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
   .content {
     display: flex;
     padding: 0 2rem;

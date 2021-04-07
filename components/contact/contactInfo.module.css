@@ -45,26 +45,20 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .contactInfo {
-    width: 750px;
+    width: auto;
     flex-direction: row;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
-  .contactInfo {
-    width: 100%;
-    flex-direction: row;
-  }
-}
-
-@media only screen and (orientation: landscape) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   .contactInfo {
     width: auto;
   }
 }
 
-@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
   .contactInfo {
-    padding: 0;
+    width: 100%;
+    flex-direction: row;
   }
 }

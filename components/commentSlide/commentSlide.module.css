@@ -69,24 +69,24 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .right {
+    right: 250px;
+  }
+  .left {
+    left: 250px;
+  }
+  .commentSlide h2 {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
   .right {
     right: 150px;
   }
   .left {
     left: 150px;
-  }
-}
-
-@media only device and (orientation: landscape) {
-  .right {
-    right: 50px;
-  }
-  .left {
-    left: 50px;
-  }
-  .commentSlide h2 {
-    margin: auto;
-    width: 80%;
   }
 }

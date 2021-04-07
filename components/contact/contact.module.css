@@ -27,14 +27,14 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   .content {
-    width: 90%;
+    width: 100%;
   }
 }
 
-@media only device and (orientation: landscape) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
   .content {
-    width: 100%;
+    width: 90%;
   }
 }
