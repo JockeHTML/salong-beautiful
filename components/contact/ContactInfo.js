@@ -14,7 +14,9 @@ function ContactInfo(props) {
           return (
             <div key={index} className={classes.info}>
               <span className={classes.icon}>
-                <i className={data.icon}></i>
+                <a href={data.href}>
+                  <i className={data.icon}></i>
+                </a>
               </span>
               <span>
                 <h4>{data.title}</h4>

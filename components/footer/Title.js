@@ -5,7 +5,6 @@ function Title(props) {
   return (
     <div className={classes.title}>
       <h2>Salong Beautiful</h2>
-      <div className={classes.border}></div>
       <p>Kontakta gärna mig vid frågor eller funderingar</p>
     </div>
   );

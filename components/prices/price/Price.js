@@ -29,8 +29,8 @@ function Price(props) {
       <div className={classes.border}></div>
       <div className={classes.priceContent}>
         <span>
-          <h3>{`${title}.....`}</h3>
-          <h3>{price}</h3>
+          <h4>{`${title}.....`}</h4>
+          <h4>{price}</h4>
         </span>
 
         <p>{text}</p>
@@ -38,8 +38,8 @@ function Price(props) {
 
       <div className={classes.priceContent}>
         <span>
-          <h3>{`${title2}.....`}</h3>
-          <h3>{price2}</h3>
+          <h4>{`${title2}.....`}</h4>
+          <h4>{price2}</h4>
         </span>
 
         <p>{text2}</p>
@@ -49,8 +49,8 @@ function Price(props) {
         <div className={classes.priceContent}>
           <span>
             {" "}
-            <h3>{`${title3}.....`}</h3>
-            <h3>{price3}</h3>
+            <h4>{`${title3}.....`}</h4>
+            <h4>{price3}</h4>
           </span>
           <p>{text3}</p>{" "}
         </div>
@@ -60,16 +60,16 @@ function Price(props) {
         <div>
           <div className={classes.priceContent}>
             <span>
-              <h3>{`${title4}.....`}</h3>
-              <h3>{price4}</h3>
+              <h4>{`${title4}.....`}</h4>
+              <h4>{price4}</h4>
             </span>
 
             <p>{text4}</p>
           </div>
           <div className={classes.priceContent}>
             <span>
-              <h3>{`${title5}.....`}</h3>
-              <h3>{price5}</h3>
+              <h4>{`${title5}.....`}</h4>
+              <h4>{price5}</h4>
             </span>
 
             <p>{text5}</p>

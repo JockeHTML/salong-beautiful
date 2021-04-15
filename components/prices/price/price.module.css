@@ -30,9 +30,10 @@
   margin: 0;
 }
 
-.priceContent h3 {
+.priceContent h4 {
   color: var(--blue);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 800;
   margin-bottom: 0;
 }
 
@@ -57,7 +58,7 @@
   .price p {
     width: 90%;
   }
-  .price h3 {
+  .price h4 {
     width: 100%;
   }
   .priceContent {
@@ -73,7 +74,7 @@
   .price p {
     width: 90%;
   }
-  .price h3 {
+  .price h4 {
     width: 100%;
   }
   .priceContent {

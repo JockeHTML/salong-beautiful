@@ -16,6 +16,7 @@
   --size4: 1rem;
   --size5: 1.25rem;
   --size6: 1.5rem;
+  --size7: 1.8rem;
   --size8: 2rem;
   --size10: 2.2rem;
   --size12: 3rem;
@@ -27,50 +28,59 @@
   --heading: #373f41;
   --dark: #404040;
   --darker: rgba(12, 9, 9, 0.6);
-  --yellow: #ffb703;
+  --yellow: #e0c669;
   --pink: #e2917e;
-  --lightbg: #ede0d4;
+  --lightbg: #d1d6c2;
   --blue: #023047;
   --lightblue: #98c1d9;
   --white: #fff;
 }
 
+html,
 body {
-  scroll-behavior: smooth;
+  padding: 0;
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
   background-color: var(--white);
+  overflow-x: hidden!;
   color: var(--heading);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   font-size: var(--size12);
   font-family: "Domine", serif;
   color: var(--blue);
+  line-height: 1;
 }
 
 h3 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: var(--blue);
-  font-size: var(--size6);
+  font-size: var(--size7);
+  line-height: 1.75rem;
 }
 
 h4 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: var(--blue);
   font-size: var(--size5);
+  line-height: 1.75rem;
 }
 
 h2 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: var(--blue);
   font-size: var(--size8);
+  line-height: 2rem;
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: var(--size4);
-  color: var(--heading);
+  font-size: var(--size5);
+  color: black;
+  line-height: 1.75rem;
 }
 
 a {
@@ -89,7 +99,10 @@ button {
     font-size: var(--size10);
   }
   h3 {
-    font-size: var(--size5);
+    font-size: var(--size6);
+  }
+  h2 {
+    font-size: var(--size7);
   }
   * {
     scroll-padding-top: 0;
@@ -101,9 +114,9 @@ button {
     font-size: var(--size10);
   }
   h3 {
-    font-size: var(--size5);
+    font-size: var(--size6);
   }
   h2 {
-    font-size: var(--size6);
+    font-size: var(--size7);
   }
 }

@@ -5,8 +5,7 @@ function Text(props) {
   return (
     <div className={classes.text}>
       <div className={classes.social}>
-        <h2>Social media</h2>
-        <div className={classes.border}></div>
+        <h2>Sociala medier</h2>
         <span>
           <a
             target="_blank"

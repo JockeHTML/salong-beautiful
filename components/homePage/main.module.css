@@ -1,6 +1,7 @@
 .main {
-  background-image: url("../../public/images/bg3.jpg");
+  background-image: url("../../public/images/bg2.jpg");
   height: 100vh;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;

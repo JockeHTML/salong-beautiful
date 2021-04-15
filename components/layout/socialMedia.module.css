@@ -25,7 +25,7 @@
 .socialMedia i:hover,
 .socialMedia i:active,
 .socialMedia i.active {
-  color: var(--yellow);
+  color: var(--blue);
 }
 
 @media (max-width: 768px) {

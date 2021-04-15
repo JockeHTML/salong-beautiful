@@ -162,9 +162,10 @@ export const contactData = [
   {
     title: "Caroline.leek@icloud.com",
     icon: "fas fa-envelope",
+    href: "mailto:caroline.leek@icloud.com",
   },
   {
-    title: "Fridhemsgatan 74, 854 61 Sundsvall",
+    title: "Fridhemsgatan 74, 854 61",
     icon: "fas fa-map-marker-alt",
   },
 ];

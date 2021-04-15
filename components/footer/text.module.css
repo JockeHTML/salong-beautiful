@@ -8,18 +8,11 @@
   margin-bottom: 5px;
 }
 
-.border {
-  border-radius: 10px;
-  position: relative;
-  width: 100px;
-  height: 10px;
-  background-color: var(--yellow);
-  margin: 0;
-}
-
 .text i {
   padding: 1rem 0;
   font-size: 1.7rem;
+  color: var(--yellow);
+
   margin: 0 1rem 0 0;
 }
 

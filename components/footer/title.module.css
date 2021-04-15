@@ -1,6 +1,7 @@
 .title {
   font-size: var(--size5);
   padding: 1rem 0 1rem 1rem;
+  width: 380px;
 }
 
 .title h2 {
@@ -12,17 +13,7 @@
   padding: 1rem 0;
   color: var(--white);
   margin: 0;
-  width: 65%;
-  font-weight: 600;
-}
-
-.border {
-  border-radius: 10px;
-  position: relative;
-  width: 100px;
-  height: 10px;
-  background-color: var(--yellow);
-  margin: 0;
+  width: 70%;
 }
 
 @media (max-width: 768px) {
