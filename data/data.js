@@ -153,20 +153,19 @@ export const contactData = [
     title: "060 - 61 76 10",
     icon: "fas fa-phone-alt",
     href: "tel:+4660617610",
+    alt: "phone",
   },
   {
     title: "0703-118 663",
     icon: "fas fa-mobile-alt",
     href: "tel:+46703118663",
+    alt: "phone",
   },
   {
     title: "Caroline.leek@icloud.com",
     icon: "fas fa-envelope",
     href: "mailto:caroline.leek@icloud.com",
-  },
-  {
-    title: "Fridhemsgatan 74, 854 61",
-    icon: "fas fa-map-marker-alt",
+    alt: "email",
   },
 ];
 

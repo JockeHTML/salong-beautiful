@@ -14,7 +14,7 @@ function ContactInfo(props) {
           return (
             <div key={index} className={classes.info}>
               <span className={classes.icon}>
-                <a href={data.href}>
+                <a aria-label={data.alt} href={data.href}>
                   <i className={data.icon}></i>
                 </a>
               </span>
@@ -24,6 +24,14 @@ function ContactInfo(props) {
             </div>
           );
         })}
+        <div className={classes.info}>
+          <span className={classes.icon}>
+            <i className="fas fa-map-marker-alt"></i>
+          </span>
+          <span>
+            <h4>Fridhemsgatan 74, 854 61</h4>
+          </span>
+        </div>
       </div>
       <Map />
     </div>

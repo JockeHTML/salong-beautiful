@@ -20,9 +20,11 @@ function MainNavigation(props) {
           {navLinks.map((link, index) => {
             const { url, title } = link;
             return (
-              <a key={index} href={url}>
-                {title}
-              </a>
+              <li>
+                <a key={index} href={url}>
+                  {title}
+                </a>
+              </li>
             );
           })}
         </ul>

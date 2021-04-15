@@ -18,6 +18,10 @@ function CopyRight(props) {
             </li>
           );
         })}
+        <li>
+          <i className="fas fa-map-marker-alt"></i>
+          <p>Fridhemsgatan 74, 854 61</p>
+        </li>
       </ul>
     </div>
   );
