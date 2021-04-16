@@ -14,5 +14,5 @@
   width: 100px;
   height: 10px;
   background-color: var(--yellow);
-  margin: 0;
+  margin: 5px 0 0 0;
 }

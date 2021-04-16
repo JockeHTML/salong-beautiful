@@ -11,7 +11,7 @@
   width: 100px;
   height: 10px;
   background-color: var(--yellow);
-  margin: 0 auto;
+  margin: 5px auto 0 auto;
 }
 
 .title h1 {

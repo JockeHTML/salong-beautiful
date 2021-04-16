@@ -56,29 +56,26 @@ h1 {
 }
 
 h3 {
-  font-family: "Yanone Kaffeesatz", sans-serif;
   color: var(--blue);
-  font-size: var(--size7);
+  font-size: var(--size6);
   line-height: 1.75rem;
 }
 
 h4 {
-  font-family: "Yanone Kaffeesatz", sans-serif;
   color: var(--blue);
-  font-size: var(--size5);
+  font-size: var(--size4);
   line-height: 1.75rem;
 }
 
 h2 {
-  font-family: "Yanone Kaffeesatz", sans-serif;
   color: var(--blue);
-  font-size: var(--size8);
+  font-size: var(--size7);
   line-height: 2rem;
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: var(--size5);
+  font-size: var(--size4);
   color: black;
   line-height: 1.75rem;
 }
@@ -86,7 +83,6 @@ p {
 a {
   color: var(--primary);
   text-decoration: none;
-  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 button {
@@ -99,10 +95,10 @@ button {
     font-size: var(--size10);
   }
   h3 {
-    font-size: var(--size6);
+    font-size: var(--size5);
   }
   h2 {
-    font-size: var(--size7);
+    font-size: var(--size6);
   }
   * {
     scroll-padding-top: 0;
@@ -114,9 +110,9 @@ button {
     font-size: var(--size10);
   }
   h3 {
-    font-size: var(--size6);
+    font-size: var(--size5);
   }
   h2 {
-    font-size: var(--size7);
+    font-size: var(--size6);
   }
 }

@@ -12,7 +12,7 @@
   width: 100px;
   height: 10px;
   background-color: var(--yellow);
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 
 @media (max-width: 768px) {
@@ -20,7 +20,7 @@
     text-align: center;
   }
   .border {
-    margin: 0 auto;
+    margin: 5px auto 0 auto;
   }
 }
 
@@ -30,6 +30,6 @@
     padding: 0 1rem;
   }
   .border {
-    margin: 0 0 0 1rem;
+    margin: 5px 0 0 1rem;
   }
 }
