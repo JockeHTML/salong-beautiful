@@ -17,10 +17,6 @@
   .product {
     flex-direction: column;
   }
-
-  .productLink {
-    margin: 2rem 1rem 0 1rem;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

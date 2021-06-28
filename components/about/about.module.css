@@ -19,7 +19,7 @@
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .about {
     flex-direction: row;
-    padding: var(--padding6) 1.5rem;
+    padding: var(--padding6) 30px;
   }
 }
 

@@ -37,10 +37,3 @@
     margin-top: 1rem;
   }
 }
-
-@media (min-width: 1024px) and (max-width: 1366px) {
-  .title {
-    width: auto;
-    padding: 3rem 0 2rem 0;
-  }
-}

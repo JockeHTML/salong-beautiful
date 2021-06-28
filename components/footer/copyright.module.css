@@ -55,3 +55,10 @@
     margin-top: 1rem;
   }
 }
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .contact ul {
+    flex-direction: row;
+    align-items: center;
+  }
+}

@@ -19,18 +19,18 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 0 1.5rem;
   }
   .prices {
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
     width: 100%;
   }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .prices {
-    padding: var(--padding6) 1.5rem;
+    padding: var(--padding6) 30px;
   }
+
   .content div:nth-child(1) {
     margin-top: 0;
   }
