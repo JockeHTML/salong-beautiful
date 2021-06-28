@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./text.module.css";
 import Title from "./Title.js";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Text(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className={classes.text}>
+    <div data-aos="fade-up" className={classes.text}>
       <Title />
       <div className={classes.content}>
         <p>

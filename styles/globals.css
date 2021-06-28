@@ -10,6 +10,7 @@
 }
 
 :root {
+  --padding6: 6rem;
   --size1: 0.25rem;
   --size2: 0.5rem;
   --size3: 0.75rem;

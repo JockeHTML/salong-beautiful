@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./imageGrid.module.css";
 import { tileData } from "../../data/data";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ImageGrid = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   /* open clicked image */
   const [imageSrc, setImageSrc] = useState();
   const [openImage, setOpenImage] = useState(false);
@@ -12,7 +18,7 @@ const ImageGrid = () => {
   };
 
   return (
-    <div className={classes.imageGrid}>
+    <div data-aos="fade-up" className={classes.imageGrid}>
       {tileData.map((tile, index) => (
         <img
           key={index}

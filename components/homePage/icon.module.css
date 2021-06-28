@@ -29,9 +29,3 @@
 .icon:hover {
   opacity: 0.8;
 }
-
-@media (max-width: 768px) {
-  .icon {
-    font-size: 1.2rem;
-  }
-}

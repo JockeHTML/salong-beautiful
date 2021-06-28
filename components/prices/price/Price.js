@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./price.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Price(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   const {
     data: {
       heading,
@@ -24,7 +29,7 @@ function Price(props) {
   } = props;
 
   return (
-    <div className={classes.price}>
+    <div data-aos="fade-up" className={classes.price}>
       <h2>{heading}</h2>
       <div className={classes.border}></div>
       <div className={classes.priceContent}>

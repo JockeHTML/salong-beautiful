@@ -6,6 +6,7 @@
 }
 
 .content {
+  max-width: 100%;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -18,9 +19,12 @@
 
 @media (max-width: 768px) {
   .footer {
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
   .content {
+    padding: 3rem 0;
+
     flex-direction: column;
   }
 }

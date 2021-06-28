@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { contactData } from "../../data/data";
 import classes from "./contactInfo.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function ContactInfo(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className={classes.contactInfo}>
+    <div data-aos="fade-up" className={classes.contactInfo}>
       {contactData.map((data, index) => {
         return (
           <div key={index} className={classes.info}>

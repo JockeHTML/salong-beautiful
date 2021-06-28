@@ -8,6 +8,7 @@
   color: var(--blue);
   margin: auto;
   width: 400px;
+  max-width: 100%;
 }
 
 .border {
