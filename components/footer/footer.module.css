@@ -1,13 +1,19 @@
 .footer {
   width: 100%;
   height: auto;
-  background-color: var(--blue);
+
   justify-content: center;
 }
 
 .content {
+  flex-direction: column;
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding: 7rem 0;
+  border-top: 1px solid #f7f8f9;
+  width: 1177px;
+  margin: auto;
 }
 
 @media (max-width: 768px) {

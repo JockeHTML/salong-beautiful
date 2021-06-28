@@ -1,9 +1,8 @@
 .picture img {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 450px;
   object-position: center;
   object-fit: cover;
-  border-radius: 100vh;
 }
 
 @media (max-width: 768px) {

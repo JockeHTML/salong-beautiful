@@ -3,7 +3,7 @@
 }
 
 .socialMedia i {
-  color: var(--white);
+  color: white;
   font-size: var(--size6);
 }
 
@@ -17,15 +17,8 @@
 .socialMedia span {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
-  color: var(--white);
   font-size: var(--size5);
   margin-right: 2rem;
-}
-
-.socialMedia i:hover,
-.socialMedia i:active,
-.socialMedia i.active {
-  color: var(--blue);
 }
 
 @media (max-width: 768px) {

@@ -2,7 +2,7 @@
   margin: auto;
   font-size: var(--size5);
   text-align: center;
-  padding: 4rem 0;
+  padding-bottom: 4rem;
 }
 
 .title h1 {

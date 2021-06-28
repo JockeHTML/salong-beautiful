@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
-  border-bottom: 1px solid lightgrey;
+  padding: 7rem;
+  width: 1177px;
+  margin: auto;
 }
 
 @media (max-width: 768px) {

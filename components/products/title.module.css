@@ -6,7 +6,8 @@
 
 .title h1 {
   color: var(--blue);
-  margin: 0;
+  margin: auto;
+  width: 400px;
 }
 
 .border {
@@ -18,18 +19,8 @@
   background-color: var(--yellow);
 }
 
-.title h3 {
-  width: 40%;
-  text-align: center;
-  margin: 1rem auto 0 auto;
-}
-
 @media (max-width: 768px) {
-  .title h3 {
-    width: 70%;
-  }
   .title h1 {
     margin: auto;
-    width: 80%;
   }
 }

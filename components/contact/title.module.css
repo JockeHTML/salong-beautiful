@@ -1,11 +1,3 @@
-.title {
-  font-size: var(--size5);
-}
-
-.title h1 {
-  margin: 0;
-}
-
 .border {
   border-radius: 10px;
   position: relative;
@@ -13,6 +5,11 @@
   height: 10px;
   background-color: var(--yellow);
   margin: 5px 0 0 0;
+  margin: 5px auto 0 auto;
+}
+
+.title h1 {
+  margin: 0;
 }
 
 @media (max-width: 768px) {

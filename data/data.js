@@ -29,8 +29,7 @@ export const navLinks = [
 export const salongenData = [
   {
     title: "Salongen",
-    text:
-      "Hos mig på Beautiful vill jag att du som kund känner dig som hemma i min lugna och mysiga salong. Du som kund får 100% fokus där vi tillsammans kan skapar en frisyr och färg som passar just dig. Salongen drivs av mig Caroline Leek. Jag har gesällbrev och går regelbundet på kurser för att ständigt utvecklas som frisör.",
+    text: "Hos mig på Beautiful vill jag att du som kund känner dig som hemma i min lugna och mysiga salong. Du som kund får 100% fokus där vi tillsammans kan skapar en frisyr och färg som passar just dig. Salongen drivs av mig Caroline Leek. Jag har gesällbrev och går regelbundet på kurser för att ständigt utvecklas som frisör.",
   },
 ];
 
@@ -71,8 +70,7 @@ export const priceData = [
   {
     heading: "Övrigt",
     title: "Klipp & färg extra      ",
-    text:
-      "Om du vill göra avfärgning eller mer avancerade färger. Vänligen kom in på salongen eller skicka ett mail eller sms för att få prisuppgift",
+    text: "Om du vill göra avfärgning eller mer avancerade färger. Vänligen kom in på salongen eller skicka ett mail eller sms för att få prisuppgift",
     title2: "Olaplex",
     text2:
       "För att minska slitage på ditt hår, lägg till Olaplex i din färgbehandling! Kontakta salongen för prisuppgift",
@@ -151,19 +149,19 @@ export const tileData = [
 export const contactData = [
   {
     title: "060 - 61 76 10",
-    icon: "fas fa-phone-alt",
+    icon: "./images/telephone.png",
     href: "tel:+4660617610",
     alt: "phone",
   },
   {
     title: "0703-118 663",
-    icon: "fas fa-mobile-alt",
+    icon: "./images/telephone2.png",
     href: "tel:+46703118663",
     alt: "phone",
   },
   {
     title: "Caroline.leek@icloud.com",
-    icon: "fas fa-envelope",
+    icon: "./images/mail.png",
     href: "mailto:caroline.leek@icloud.com",
     alt: "email",
   },

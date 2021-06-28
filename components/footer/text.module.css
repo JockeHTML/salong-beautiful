@@ -1,18 +1,8 @@
 .text {
-  color: var(--white);
-  padding: 1rem;
+  color: var(--blue);
 }
 
-.text h2 {
-  color: var(--white);
-  margin-bottom: 5px;
-}
-
-.text i {
-  padding: 1rem 0;
-  font-size: 1.7rem;
-  color: var(--yellow);
-
+.text img {
   margin: 0 1rem 0 0;
 }
 

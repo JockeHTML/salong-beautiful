@@ -18,18 +18,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   border-radius: 100vh;
-  border: 3px solid var(--white);
+  border: 2px solid var(--white);
 }
 
 .slide i {
   color: var(--white);
-  font-size: var(--size8);
+  font-size: var(--size6);
 }
 
 .slide h3 {
+  font-weight: 400;
   color: var(--white);
 }
 
