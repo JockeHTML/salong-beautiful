@@ -46,7 +46,6 @@ body {
   scroll-behavior: smooth;
   background-color: var(--white);
   overflow-x: hidden!;
-  color: var(--heading);
 }
 
 h1 {

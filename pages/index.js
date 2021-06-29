@@ -21,6 +21,8 @@ function Home(props) {
           name="description"
           content="Frisör på Fridhemsgatan 74, 854 61 Sundsvall.Färgning och klippning, boka tid på 060 - 61 76 10"
         />
+        <meta property="og:title" content="Salong Beautiful" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Main />
       <About />
