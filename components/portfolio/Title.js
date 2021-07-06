@@ -8,7 +8,7 @@ function Title(props) {
       <div className={classes.border}></div>
       <h3>
         Följ{" "}
-        <a href="https://www.instagram.com/salongbeautiful/">
+        <a target="_blank" href="https://www.instagram.com/salongbeautiful/">
           @Salong Beautiful
         </a>{" "}
         för mer bilder!
