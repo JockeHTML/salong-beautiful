@@ -1,8 +1,8 @@
 .firstIcon i {
   display: none;
   color: var(--blue);
-  left: 10px;
-  top: 10px;
+  left: 20px;
+  top: 20px;
   position: fixed;
   font-size: var(--size8);
   cursor: pointer;
@@ -12,8 +12,8 @@
 .secondIcon i {
   display: none;
   color: var(--white);
-  left: 10px;
-  top: 10px;
+  left: 20px;
+  top: 20px;
   position: fixed;
   font-size: var(--size8);
   cursor: pointer;

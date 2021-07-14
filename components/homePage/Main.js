@@ -8,7 +8,10 @@ function Main(props) {
     <div title="Salong Beautiful" id="home" className={classes.main}>
       <Menu />
       <div className={classes.title}>
-        <h1>Salong Beautiful</h1>
+        <h2>Din frisörsalong i Sundsvall</h2>
+        <span>
+          <h1>Salong Beautiful</h1>
+        </span>
         <Icon />
       </div>
     </div>

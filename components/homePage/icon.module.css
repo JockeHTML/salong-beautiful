@@ -1,8 +1,9 @@
 .icon span {
-  background-color: white;
+  background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 40vh;
 }
 
 .icon a {
@@ -12,7 +13,7 @@
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   color: black;
 }
 

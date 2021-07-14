@@ -4,7 +4,8 @@ import classes from "./title.module.css";
 function Title(props) {
   return (
     <div className={classes.title}>
-      <h1>Varumärken jag jobbar med</h1>
+      <h2>Varumärken</h2>
+      <h1>Produkter</h1>
       <div className={classes.border}></div>
     </div>
   );

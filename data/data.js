@@ -154,7 +154,7 @@ export const contactData = [
     alt: "phone",
   },
   {
-    title: "0703-118 663",
+    title: "070 - 311 86 63",
     icon: "./images/telephone2.png",
     href: "tel:+46703118663",
     alt: "phone",
