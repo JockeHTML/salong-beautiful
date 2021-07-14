@@ -16,9 +16,9 @@ function ContactInfo(props) {
             <span className={classes.icon}>
               <img src={data.icon} alt={data.title} />
             </span>
-            <span>
+            <a aria-label="e-post, telefon, address" href={data.href}>
               <p>{data.title}</p>
-            </span>
+            </a>
           </div>
         );
       })}
