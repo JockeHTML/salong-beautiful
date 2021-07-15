@@ -22,7 +22,6 @@
 @media (max-width: 768px) {
   .picture img:nth-child(2) {
     height: 250px;
-    border-radius: 0;
   }
   .picture img:nth-child(1) {
     display: none;
@@ -37,7 +36,6 @@
   .picture img:nth-child(2) {
     height: 400px;
     width: 550px;
-    border-radius: 0;
   }
 }
 
@@ -45,7 +43,6 @@
   .picture img:nth-child(2) {
     height: 400px;
     width: 550px;
-    border-radius: 0;
   }
   .picture img:nth-child(1) {
     display: none;

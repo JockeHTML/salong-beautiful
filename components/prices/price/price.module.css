@@ -1,14 +1,14 @@
 .price h2 {
   font-family: "Domine", serif;
-  margin-bottom: 5px;
-  margin-top: 0;
+  margin: 0 0 10px 0;
 }
 
 .price {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  padding: 0 1rem;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  width: 1177px;
 }
 
 .price p {
@@ -36,46 +36,43 @@
   margin-bottom: 0;
 }
 
+.table table,
+.table th,
+.table td {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table td {
+  width: 70%;
+
+  text-align: left;
+  border-top: 1px solid #ddd;
+  padding: 10px 0 0 0;
+}
+
+.table p {
+  font-size: 14px;
+}
+
+.table h4 {
+  margin: 0;
+}
+
 @media (max-width: 768px) {
-  .priceContent {
-    flex-direction: column;
-  }
-  .price {
-    padding: 0;
-    width: 100%;
-    margin-top: 3rem;
-  }
-  .price p {
-    width: 100%;
-  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .price {
-    margin-top: 3rem;
-  }
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
-  .price {
-    margin-top: 0;
-  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .price {
-    margin-top: 0rem;
-  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .price {
-    margin-top: 0rem;
-  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .price {
-    margin-top: 0rem;
-  }
 }

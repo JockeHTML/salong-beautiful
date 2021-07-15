@@ -16,7 +16,8 @@ function Slide(props) {
         <span>
           <i className="fas fa-map-marker-alt"></i>
         </span>
-        <h3>Fridhemsgatan 74</h3>
+        <h3>Fridhemsgatan 74 </h3>
+        <h3>854 61 Sundsvall</h3>
       </div>
       <div>
         <span>

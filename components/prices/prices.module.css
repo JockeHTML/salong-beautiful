@@ -9,9 +9,14 @@
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 1177px;
   max-width: 100%;
+}
+
+.content div:nth-child(3) {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -40,7 +45,7 @@
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
   .prices {
-    padding: var(--padding6) 0.5rem;
+    padding: var(--padding6) 30px;
   }
 }
 
@@ -49,6 +54,6 @@
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
   .prices {
-    padding: var(--padding6) 0.5rem;
+    padding: var(--padding6) 1.5rem;
   }
 }

@@ -13,3 +13,9 @@
     padding: var(--padding6) 0;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1366px) and (orientation: portrait) {
+  .portfolio {
+    padding: 7rem 30px;
+  }
+}

@@ -35,7 +35,7 @@ export const CommentSlide = () => {
           >
             {index === current && (
               <span>
-                <h2>❞{slide.text}❞</h2>
+                <h3>❞{slide.text}❞</h3>
               </span>
             )}
           </div>

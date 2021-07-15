@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 2rem 0;
 }
 
 .slide span {
@@ -32,6 +33,11 @@
 .slide h3 {
   font-weight: 400;
   color: var(--white);
+  margin: 1rem 0 0 0;
+}
+
+.slide h3:nth-child(3) {
+  margin-top: 0;
 }
 
 @media (max-width: 768px) {
@@ -39,7 +45,7 @@
     flex-direction: column;
     height: auto;
     width: 100%;
-    padding: 2rem 1.5rem 1rem 1.5rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
     text-align: center;
   }
 }

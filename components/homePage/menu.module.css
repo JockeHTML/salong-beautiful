@@ -1,26 +1,34 @@
 .firstIcon i {
   display: none;
-  color: var(--blue);
-  left: 20px;
-  top: 20px;
-  position: fixed;
-  font-size: var(--size8);
-  cursor: pointer;
-  z-index: 3;
-}
-
-.secondIcon i {
-  display: none;
   color: var(--white);
   left: 20px;
   top: 20px;
   position: fixed;
   font-size: var(--size8);
   cursor: pointer;
-  z-index: 3;
+  z-index: 4;
+  padding: 10px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.secondIcon i {
+  padding: 10px;
+  display: none;
+  color: var(--white);
+  left: 20px;
+  top: 20px;
+  position: fixed;
+  font-size: var(--size8);
+
+  cursor: pointer;
+  z-index: 4;
 }
 
 .menuOpen i {
+  z-index: 3;
   cursor: pointer;
   color: var(--white);
   left: 10px;
@@ -41,6 +49,7 @@
 }
 
 .menuOpen {
+  z-index: 3;
   text-align: center;
   transition: all 400ms ease-out;
   display: flex;
@@ -55,7 +64,6 @@
 
   background-color: var(--yellow);
   opacity: 0.95;
-  z-index: 2;
 }
 
 .menuOpen h2 {

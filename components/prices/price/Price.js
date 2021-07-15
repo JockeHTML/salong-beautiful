@@ -30,56 +30,91 @@ function Price(props) {
 
   return (
     <div data-aos="fade-up" className={classes.price}>
-      <h2>{heading}</h2>
-      <div className={classes.border}></div>
-      <div className={classes.priceContent}>
-        <span>
-          <h4>{`${title}.....`}</h4>
-          <h4>{price}</h4>
-        </span>
+      <table cellspacing="0" id="customers" className={classes.table}>
+        <tr>
+          <th>
+            <h2 style={{ marginTop: "0" }}>{heading}</h2>
+          </th>
+          <th>
+            <h2>Pris</h2>
+          </th>
+        </tr>
 
-        <p>{text}</p>
-      </div>
-
-      <div className={classes.priceContent}>
-        <span>
-          <h4>{`${title2}.....`}</h4>
-          <h4>{price2}</h4>
-        </span>
-
-        <p>{text2}</p>
-      </div>
-
+        <tr>
+          <td>
+            <h4>{title}</h4>
+          </td>
+          <td>
+            <p>{price}</p>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ border: "0", padding: "0 0 10px 0" }}>
+            <p>{text}</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>{title2}</h4>
+          </td>
+          <td>
+            <p>{price2}</p>
+          </td>
+        </tr>
+        <tr>
+          <td style={{ border: "0", padding: "0 0 10px 0" }}>
+            <p>{text2}</p>
+          </td>
+        </tr>
+      </table>
       {!title3 ? null : (
-        <div className={classes.priceContent}>
-          <span>
-            {" "}
-            <h4>{`${title3}.....`}</h4>
-            <h4>{price3}</h4>
-          </span>
-          <p>{text3}</p>{" "}
-        </div>
+        <table cellspacing="0" id="customers" className={classes.table}>
+          <tr>
+            <td>
+              <h4>{title3}</h4>
+            </td>
+            <td>
+              <p>{price3}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={{ border: "0", padding: "0 0 10px 0" }}>
+              <p>{text3}</p>
+            </td>
+          </tr>
+        </table>
       )}
 
       {!title4 || !title5 ? null : (
-        <div>
-          <div className={classes.priceContent}>
-            <span>
-              <h4>{`${title4}.....`}</h4>
-              <h4>{price4}</h4>
-            </span>
+        <table cellspacing="0" id="customers" className={classes.table}>
+          <tr>
+            <td>
+              <h4>{title4}</h4>
+            </td>
+            <td>
+              <p>{price4}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={{ border: "0", padding: "0 0 10px 0" }}>
+              <p>{text4}</p>
+            </td>
+          </tr>
 
-            <p>{text4}</p>
-          </div>
-          <div className={classes.priceContent}>
-            <span>
-              <h4>{`${title5}.....`}</h4>
-              <h4>{price5}</h4>
-            </span>
-
-            <p>{text5}</p>
-          </div>
-        </div>
+          <tr>
+            <td>
+              <h4>{title5}</h4>
+            </td>
+            <td>
+              <p>{price5}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={{ border: "0", padding: "0 0 10px 0" }}>
+              <p>{text5}</p>
+            </td>
+          </tr>
+        </table>
       )}
     </div>
   );
