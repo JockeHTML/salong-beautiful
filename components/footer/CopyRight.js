@@ -9,8 +9,8 @@ function CopyRight(props) {
         {contactData.map((data, index) => {
           const { title, href, icon } = data;
           return (
-            <li>
-              <a href={data.href} key={index}>
+            <li key={index}>
+              <a href={data.href}>
                 <p>{title}</p>
               </a>
             </li>

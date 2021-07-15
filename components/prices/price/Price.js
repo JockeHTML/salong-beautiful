@@ -30,90 +30,97 @@ function Price(props) {
 
   return (
     <div data-aos="fade-up" className={classes.price}>
-      <table cellspacing="0" id="customers" className={classes.table}>
-        <tr>
-          <th>
-            <h2 style={{ marginTop: "0" }}>{heading}</h2>
-          </th>
-          <th>
-            <h2>Pris</h2>
-          </th>
-        </tr>
+      <table cellSpacing="0" id="customers" className={classes.table}>
+        <tbody>
+          <tr>
+            <th>
+              <h2 style={{ marginTop: "0" }}>{heading}</h2>
+            </th>
+            <th>
+              <h2>Pris</h2>
+            </th>
+          </tr>
 
-        <tr>
-          <td>
-            <h4>{title}</h4>
-          </td>
-          <td>
-            <p>{price}</p>
-          </td>
-        </tr>
-        <tr>
-          <td style={{ border: "0", padding: "0 0 10px 0" }}>
-            <p>{text}</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h4>{title2}</h4>
-          </td>
-          <td>
-            <p>{price2}</p>
-          </td>
-        </tr>
-        <tr>
-          <td style={{ border: "0", padding: "0 0 10px 0" }}>
-            <p>{text2}</p>
-          </td>
-        </tr>
-      </table>
-      {!title3 ? null : (
-        <table cellspacing="0" id="customers" className={classes.table}>
           <tr>
             <td>
-              <h4>{title3}</h4>
+              <h4>{title}</h4>
             </td>
             <td>
-              <p>{price3}</p>
+              <p>{price}</p>
             </td>
           </tr>
           <tr>
             <td style={{ border: "0", padding: "0 0 10px 0" }}>
-              <p>{text3}</p>
+              <p>{text}</p>
             </td>
           </tr>
+          <tr>
+            <td>
+              <h4>{title2}</h4>
+            </td>
+            <td>
+              <p>{price2}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={{ border: "0", padding: "0 0 10px 0" }}>
+              <p>{text2}</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      {!title3 ? null : (
+        <table cellSpacing="0" id="customers" className={classes.table}>
+          <tbody>
+            <tr>
+              <td>
+                <h4>{title3}</h4>
+              </td>
+              <td>
+                <p>{price3}</p>
+              </td>
+            </tr>
+            <tr>
+              <td style={{ border: "0", padding: "0 0 10px 0" }}>
+                <p>{text3}</p>
+              </td>
+            </tr>
+          </tbody>
         </table>
       )}
 
       {!title4 || !title5 ? null : (
-        <table cellspacing="0" id="customers" className={classes.table}>
-          <tr>
-            <td>
-              <h4>{title4}</h4>
-            </td>
-            <td>
-              <p>{price4}</p>
-            </td>
-          </tr>
-          <tr>
-            <td style={{ border: "0", padding: "0 0 10px 0" }}>
-              <p>{text4}</p>
-            </td>
-          </tr>
+        <table cellSpacing="0" id="customers" className={classes.table}>
+          <tbody>
+            <tr>
+              <td>
+                <h4>{title4}</h4>
+              </td>
+              <td>
+                <p>{price4}</p>
+              </td>
+            </tr>
 
-          <tr>
-            <td>
-              <h4>{title5}</h4>
-            </td>
-            <td>
-              <p>{price5}</p>
-            </td>
-          </tr>
-          <tr>
-            <td style={{ border: "0", padding: "0 0 10px 0" }}>
-              <p>{text5}</p>
-            </td>
-          </tr>
+            <tr>
+              <td style={{ border: "0", padding: "0 0 10px 0" }}>
+                <p>{text4}</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <h4>{title5}</h4>
+              </td>
+              <td>
+                <p>{price5}</p>
+              </td>
+            </tr>
+            <tr>
+              <td style={{ border: "0", padding: "0 0 10px 0" }}>
+                <p>{text5}</p>
+              </td>
+            </tr>
+          </tbody>
         </table>
       )}
     </div>
