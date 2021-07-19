@@ -10,7 +10,7 @@
 
 .picture img:nth-child(1) {
   position: absolute;
-  left: 24rem;
+  left: 30rem;
   margin-top: -2rem;
   z-index: 1;
 }
