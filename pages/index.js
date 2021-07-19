@@ -8,7 +8,6 @@ import Slide from "../components/slide/Slide";
 import Footer from "../components/footer/Footer";
 import Contact from "../components/contact/Contact";
 import Head from "next/head";
-import { CommentSlide } from "../components/commentSlide/CommentSlide";
 
 function Home(props) {
   return (
@@ -30,7 +29,6 @@ function Home(props) {
       <Slide />
       <Portfolio />
       <Prices />
-      <CommentSlide />
       <Contact />
       <Footer />
     </main>
